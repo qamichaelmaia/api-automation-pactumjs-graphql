@@ -26,14 +26,17 @@ npm install
 ## Estrutura do Projeto
 O projeto é estruturado da seguinte maneira:
 
-- tests/: Diretório que contém todos os arquivos de teste.
-- user.test.js: Arquivo de teste para operações de usuário.
-- login.test.js: Arquivo de teste para operações de login.
+- tests/: Diretório que contém todos os arquivos de teste;
+- user.test.js: Arquivo de teste para operações de usuário;
+- login.test.js: Arquivo de teste para operações de login;
+- category.test.js: Arquivo de teste para operações de categoria;
+- products.test.js: Arquivo de teste para operações de produtos.
 
 ## Execução dos Testes
 Para executar os testes, execute o seguinte comando:
 ```bash
 npm test
+npm t
 ```
 
 ## Descrição dos Testes
@@ -42,6 +45,12 @@ npm test
 
 - Testes de Login
     Os testes de login verificam se a autenticação e a autorização funcionam corretamente. Isso inclui testar se um usuário pode fazer login com credenciais válidas e se um token de acesso é retornado.
+
+- Testes de Categoria
+    Os testes de categoria verificam se as operações de adicionar, editar ou deletar estão funcionando corretamente. Isso inclui testar se um usuário pode adicionar uma nova categoria, editar uma categoria existente, ou deletar uma categoria escolhida.
+
+- Testes de Produtos
+    Os testes de produtos verificam se as operações de adicionar, editar ou deletar estão funcionando corretamente. Isso inclui testar se um usuário pode adicionar um novo produto, editar os seus dados, ou deletar um produto escolhido.
 
 ## Chave utilizada
 
