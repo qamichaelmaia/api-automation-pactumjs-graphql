@@ -1,4 +1,4 @@
-# Automação de API: GraphQLe PactumJS
+# Automação de API: GraphQL e PactumJS
 
 - Categorias (addCategory, editCategory, deleteCategory)
 - Produtos (addProduct, editProduct, deleteProduct)
@@ -35,6 +35,7 @@ O projeto é estruturado da seguinte maneira:
 - pactum
 - pactum-matchers
 - mocha
+- rest
 - graphql
 
 ## Instalação
