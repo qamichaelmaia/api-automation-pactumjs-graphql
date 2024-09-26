@@ -57,7 +57,7 @@ handler.addInteractionHandler('Category Response',()=>{
 it('FRONT - add a new category successfully with authorization', async () => {
   await flow('Add Category')
     .useInteraction('Category Response')
-    .post('http://lojaebac.ebaconline.art.br/graphql')
+    .post('http://lojaebac.ebaconline.art.br/api-docs/#/default/post_api_addCategory')
     .withHeaders({
       'Authorization':'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY2Y2RlMWRiYTYwY2ExZWY3ZmEwMzc1ZCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIn0sImlhdCI6MTcyNzM3NTc3MywiZXhwIjoxNzI3NDYyMTczfQ.gqRPWO2XB4Di-JtQzFQZTkmEyJikBee1NTWMf2SDT38'
     })

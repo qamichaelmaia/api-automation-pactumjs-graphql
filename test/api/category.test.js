@@ -1,4 +1,4 @@
-const { spec } = require('pactum'); // Certifique-se de que Pactum está instalado
+const { spec } = require('pactum');
 const request = require('pactum').request;
 
 
