@@ -13,10 +13,15 @@
   "author": "michaelmaia",
   "license": "ISC",
   "devDependencies": {
+    "@wdio/cli": "^9.1.3",
     "mocha": "^10.7.3"
   },
   "dependencies": {
     "pactum": "^3.7.1",
     "pactum-flow-plugin": "^0.1.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
 }
